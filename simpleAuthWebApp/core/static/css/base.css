@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-image: url(static/images/moon.heic);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.container {
+    /*background-color: gray;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;*/
+}
+
+.postHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.postHeader p {
+    padding: 10px;
+}
